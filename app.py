@@ -51,6 +51,6 @@ if st.button('Prediksi Harga'):
     data = np.concatenate((data_num, data_encoded), axis=None).reshape(1,-1)
     # st.write(data)
     result = st.session_state['model'].predict(data)
-    st.write(f'Perkiraan biaya rumah sakit Anda adalah: {result[0]}')
+    st.write(f'Perkiraan biaya rumah sakit Anda adalah: ${result[0]}')
 else:
     st.write('Masukkan data diri Anda dan model akan memprediksi biaya rumah sakit Anda!')
