@@ -5,7 +5,7 @@ import pickle
 st.title('Prediksi Jaya Jaya Jaya Charge Rumah Sehat')
 
 if 'model' not in st.session_state:
-    model = pickle.load(open('dt_model_charges.sav', 'rb'))
+    model = pickle.load(open('rf_model_charges.sav', 'rb'))
     st.session_state['model'] = model
 
 st.header('Masukkan Identitas Diri Anda!')
