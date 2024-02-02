@@ -72,6 +72,6 @@ if st.button('Prediksi Harga'):
 
     # st.write(data) # buat debugging
     result = st.session_state['model'].predict(data)
-    st.write(f'Perkiraan biaya rumah sakit Anda adalah: {result[0]}')
+    st.write(f'Perkiraan biaya rumah sakit Anda adalah: ${result[0]}')
 else:
     st.write('Masukkan data diri Anda dan model akan memprediksi biaya rumah sakit Anda!')
