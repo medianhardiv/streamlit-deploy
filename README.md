@@ -1,11 +1,11 @@
-# Hospital Bill Charges Prediction<br>
+# Hospital Insurance Charges Prediction<br>
 ## Purpose of The Build
 
 Nothing special; curious-based project
 > **Disclaimer**: This project is just for builder to experimenting on Streamlit. Don't take it too seriously if there are some mistakes made!<br>
 ## Dataset
 
-Hospital Charges extracted from [Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance).<br>
+Hospital Insurance Charges extracted from [Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance).<br>
 ## Feature Engineering
 
 1. Delete all duplicates
